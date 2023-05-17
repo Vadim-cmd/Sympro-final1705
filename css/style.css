@@ -1163,6 +1163,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    width: 59vw;
   }
 
   .co_robimy__title {
