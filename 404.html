@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__inner">
+          <a href="/Index.html" class="logo">
+            <img src="/img/Sympro_logo.svg" alt="logo" />
+          </a>
+
+          <!-- =================== -->
+
+          <div id="menu">
+            <div id="menu-bar" onclick="menuOnClick()">
+              <div id="bar1" class="bar1"></div>
+              <div id="bar2" class="bar2"></div>
+              <div id="bar3" class="bar3"></div>
+            </div>
+            <nav class="nav" id="nav">
+              <ul>
+                <li><a href="/Index.html#page__about">O Nas</a></li>
+                <li><a href="/Index.html#page__co_robimy">Co robimy</a></li>
+                <li>
+                  <a href="/Index.html#page__nasi_klienci">Nasi klienci</a>
+                </li>
+                <li><a href="/Index.html#page__kontakt">Kontakt</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- <div class="menu-bg" id="menu-bg"></div> -->
+        </div>
+      </header>
+      <div class="error__title">
+        <h1 class="h1_regular">404</h1>
+      </div>
+      <div class="error__container">
+        <div class="error__subtitle">
+          <h2 class="h2_regular">
+            Strona, której szukasz nie została znaleziona.
+          </h2>
+        </div>
+        <div class="double-line error">
+          <div class="long-line"></div>
+          <div class="long-line"></div>
+        </div>
+        <p class="h4_regular">
+          Link, w który kliknąłeś, może być błędny.<br />
+          Jeśli problem nie dotyczy powyższej kwestiii, możliwe, że leży on po
+          naszej stronie.
+        </p>
+        <div class="error__link">
+          <a href="/Index.html" style="color: #133079"
+            >Przejdź do strony głównej</a
+          >
+          <img src="/img/caret-right-404.svg" alt="caret" class="caret-right" />
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="company-name">
+        Sympro spółka z ograniczoną odpowiedzialnością
+      </div>
+      <div class="line-white"></div>
+      <div class="numbers">
+        <div class="number_1">KRS 0000430758</div>
+        <div class="number_2">NIP 7831691401</div>
+        <div class="number_3">REGON 302197316</div>
+      </div>
+    </footer>
+    <script src="/script.js"></script>
+  </body>
+</html>
