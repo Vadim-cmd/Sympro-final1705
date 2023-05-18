@@ -50,7 +50,6 @@ body {
   width: 96vw;
   margin: 0;
   padding: 0 40px;
-
 }
 
 header {
@@ -214,7 +213,6 @@ main {
   }
 }
 
-
 .column_2 {
 }
 .column_3 {
@@ -377,9 +375,6 @@ main {
 
 /* adaptive 428px */
 @media screen and (max-width: 1199px) {
- 
-
-
 }
 
 /* ====== nasi klienci======================================================================== */
@@ -767,7 +762,6 @@ iframe {
 /* adaptive 428px */
 
 @media screen and (max-width: 1199px) {
-  
   .footer {
     width: 100%;
     flex-direction: column;
@@ -800,7 +794,7 @@ iframe {
 
   .container {
     width: 100vw;
-    padding: 10px; 
+    padding: 10px;
     /* padding: 0 40px;
     margin: 0 auto; 1705 */
   }
@@ -1057,7 +1051,7 @@ iframe {
   .page__about {
     width: 100vw;
   }
-  
+
   .footer {
     width: 100%;
     flex-direction: column;
@@ -1090,7 +1084,7 @@ iframe {
 
   .container {
     width: 100vw;
-    padding: 10px; 
+    padding: 10px;
     /* padding: 0 40px;
     margin: 0 auto; 1705 */
   }
@@ -1143,15 +1137,17 @@ iframe {
     gap: 20px;
   }
 
-  .p1, .p1_regular, .p2, .p2_regular, .about__description {
+  .p1,
+  .p1_regular,
+  .p2,
+  .p2_regular,
+  .about__description {
     width: 75vw;
   }
 
   p {
-    width: 100vw;
+    /* width: 100vw; */
   }
-
-
 
   .person {
     border-top: none;
@@ -1216,7 +1212,6 @@ iframe {
   }
   .line {
     width: 72vw;
-
   }
 
   .body__blocks {
@@ -1325,7 +1320,7 @@ iframe {
   }
 
   .footer {
-    width: 111vw;
+    width: 100%;
     margin-top: 59px;
     flex-direction: column;
     gap: 20px;
@@ -1456,10 +1451,7 @@ iframe {
 .pp_text {
   /* margin: 0 auto;17 */
   margin-left: 25vw;
-
-
 }
-
 
 /* ======= accordion ================ */
 .accordion {
@@ -1691,7 +1683,7 @@ button {
     padding: 0;
     display: flex;
     flex-direction: column;
-  margin-left: 25vw;
+    margin-left: 25vw;
 
     /* align-items: flex-end; */
   }
@@ -1699,7 +1691,6 @@ button {
   .pp_text {
     margin-top: 120px;
     margin-left: 25vw;
-
   }
 }
 
@@ -1868,10 +1859,6 @@ button {
   transform: translate(-60%, -30%);
 }
 
-
-
-
-
 @media screen and (max-width: 420px) {
   #menu {
     display: flex;
@@ -2008,5 +1995,3 @@ button {
     transform: translate(-60%, -30%);
   }
 }
-
-
