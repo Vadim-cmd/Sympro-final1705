@@ -265,7 +265,6 @@ main {
   display: flex;
   align-items: center;
   color: #133079;
-  padding: 12px 0px;
 }
 
 .caret-up {
@@ -667,7 +666,6 @@ iframe {
 
   .accordion {
     width: 812px;
-    padding: 13px;
   }
   .h4_bold {
   }
@@ -1198,7 +1196,7 @@ iframe {
   }
 
   .accordion {
-    width: 70vw;
+    width: 73vw;
   }
 
   .h3 {
@@ -1217,7 +1215,7 @@ iframe {
   .p1_regular {
   }
   .line {
-    width: 70vw;
+    width: 72vw;
 
   }
 
@@ -1471,9 +1469,7 @@ iframe {
   outline: none;
   font-size: 15px;
   transition: 0.4s;
-  margin-top: 20px;
   padding-top: 18px;
-  padding-bottom: 18px;
 }
 
 .active,
