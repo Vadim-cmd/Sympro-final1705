@@ -203,7 +203,7 @@ main {
 
 .long-line {
   margin-top: 20px;
-  width: 96vw;
+  width: 94vw;
   border: 2px solid #133079;
 }
 
@@ -462,8 +462,7 @@ main {
 }
 
 .email {
-  width: 1415px;
-  height: 108px;
+  width: 90vw;
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 400;
@@ -483,22 +482,31 @@ main {
 }
 
 .kontakt-address {
-  width: 1415px;
+  width: 96vw;
   height: 80px;
   margin-top: 20px;
   padding-bottom: 20px;
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 40px;
   color: var(--Primary3);
 }
 
-.map-img {
-  margin-top: 20px; 
+.address {
+  width: 96vw;
 }
 
+.map-img {
+  /* margin-top: 20px;  */
+  width: 98vw;
+}
+
+iframe {
+  width: 60vw;
+  height: 35vw;
+}
 /* ====== footer =============================== */
 
 .footer {
@@ -506,7 +514,7 @@ main {
   display: flex;
   box-sizing: border-box;
   padding: 10px 40px;
-  width: 100%;
+  width: 100vw;
   background-color: var(--Primary3);
 }
 
@@ -591,7 +599,7 @@ main {
   }
 
   .long-line {
-    /* width: 100%; */
+    width: 100%;
   }
 
   .about__container {
@@ -1097,12 +1105,14 @@ main {
   .h1regular {
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 48px;
+    margin-left: 40px;
   }
 
   .long-line {
-    width: 100vw;
+    width: 85vw;
+    margin-left: 40px;
   }
 
   .about__container {
@@ -1171,7 +1181,9 @@ main {
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
+    margin-left: 40px;
   }
+
   .line {
     width: 348px;
     margin: 0;
@@ -1271,6 +1283,7 @@ main {
     font-weight: 400;
     font-size: 60px;
     line-height: 60px;
+    margin-left: 40px;
   }
 
   .nasi_klienci__container {
@@ -1351,7 +1364,7 @@ main {
   }
 
   .logo {
-    padding-left: 10px;
+    padding-left: 50px;
   }
 
   .error__subtitle {
