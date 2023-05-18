@@ -480,8 +480,6 @@ main {
 
 .map {
   margin-top: 20px;
-  width: 100vw;
-
 }
 
 .kontakt-address {
@@ -498,9 +496,7 @@ main {
 }
 
 .map-img {
-  margin-top: 20px;
-  
-  
+  margin-top: 20px; 
 }
 
 /* ====== footer =============================== */
