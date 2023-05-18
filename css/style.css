@@ -48,7 +48,7 @@ body {
 
 .container {
   width: 96vw;
-  margin: 0px;
+  margin: 0;
   padding: 0 40px;
 
 }
@@ -467,7 +467,7 @@ main {
   font-family: "Tahoma";
   font-style: normal;
   font-weight: 400;
-  font-size: 72px;
+  font-size: 30px;
   line-height: 150%;
   color: var(--Primary3);
 }
@@ -480,8 +480,8 @@ main {
 
 .map {
   margin-top: 20px;
-  width: 1415px;
-  height: 100px;
+  width: 100vw;
+
 }
 
 .kontakt-address {
@@ -499,7 +499,8 @@ main {
 
 .map-img {
   margin-top: 20px;
-  width: 100%;
+  
+  
 }
 
 /* ====== footer =============================== */
