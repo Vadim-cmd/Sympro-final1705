@@ -413,7 +413,7 @@ main {
 }
 
 .box {
-  max-width: 75vw;
+  max-width: 1415px;
   padding: 14px 0;
   display: flex;
   flex-wrap: wrap;
