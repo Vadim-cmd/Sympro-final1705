@@ -1810,7 +1810,7 @@ button {
 }
 
 .nav li a:hover {
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .menu-bg,
