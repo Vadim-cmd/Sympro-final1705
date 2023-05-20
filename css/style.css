@@ -371,7 +371,7 @@ main {
 }
 
 /* adaptive 1200px menu down*/
-@media only screen and (min-width: 1199px)  {
+@media only screen and (max-width: 2600px) and (min-width: 1200px) {
   .menu-down {
     display: none;
   }
