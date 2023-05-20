@@ -247,7 +247,124 @@
               <h3 class="h3_bold">W jakich dziedzinach działamy</h3>
             </div>
             <div class="line"></div>
+            <style>
+              /* * {
+                box-sizing: border-box;
+            } */
+              .menu-right {
+    
+            }
+            
+            /* Style the tab */
+            .tab {
+              float: left;
+              /* border: 1px solid #ccc; */
+              /* background-color: #f1f1f1; */
+              width: 50%;
+              /* height: 300px; */
+            }
+            
+            /* Style the buttons inside the tab */
+            .tab button {
+              /* display: block; */
+              background-color: inherit;
+              color: #133079;
+              padding: 22px 16px;
+              width: 100%;
+              border: none;
+              outline: none;
+              text-align: left;
+              cursor: pointer;
+              font-family: 'Arial';
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 30px;
+              /* transition: 0.3s; */
+              /* font-size: 17px; */
+            }
+            
+            /* Change background color of buttons on hover */
+            .tab button:hover {
+              /* background-color: #ddd; */
+              border-bottom: 2px solid #133079;
+            }
+            
+            /* Create an active/current "tab button" class */
+            .tab button.active {
+              /* text-align: underline; */
+              border-bottom: 2px solid #133079;
+            }
+            
+            /* Style the tab content */
+            .tabcontent {
+              float: left;
+              font-family: "Arial";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 24px;
+              line-height: 30px;
+              display: flex;
+              align-items: center;
+              color: #133079;
+            }
+    
+            .tabcontent__text {
+    
+            }
+    
+            
+            </style>
+            
+            <div class="menu-right">
+            
+            <div class="tab">
+              <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Innowacyjność</button>
+              <button class="tablinks" onclick="openCity(event, 'Paris')">Rolnictwo i agrobiznes</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Odnawialne Źródła Energii</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Infrastruktura</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Gospodarka wodno-ściekowa</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Działalność badawczo-rozwojowa</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">Eksport</button>
+              <button class="tablinks" onclick="openCity(event, 'Tokyo')">IT</button>
+    
+            </div>
+            
+            <div id="London" class="tabcontent">
+              <p class="tabcontent__text">London is the capital city of England .</p>
+            </div>
+            
+            <div id="Paris" class="tabcontent">
+              <p>Paris is the capital of France.</p> 
+            </div>
+            
+            <div id="Tokyo" class="tabcontent">
+              <p>Tokyo is the capital of Japan.</p>
+            </div>
+            
+            <script>
+            function openCity(evt, cityName) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+              }
+              document.getElementById(cityName).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
+               
+            </div>
+    
 
+          <div class="menu__down">
             <button class="accordion">
               <h4 class="h4_bold">Innowacyjność</h4>
             </button>
@@ -537,115 +654,11 @@
             </div>
           </div>
         
+
+          </div>  
+            
         </section>
-        <style>
-          /* * {
-            box-sizing: border-box;
-        } */
-          .menu-right {
-
-        }
         
-        /* Style the tab */
-        .tab {
-          float: left;
-          border: 1px solid #ccc;
-          background-color: #f1f1f1;
-          width: 30%;
-          height: 300px;
-        }
-        
-        /* Style the buttons inside the tab */
-        .tab button {
-          /* display: block; */
-          background-color: inherit;
-          color: #133079;
-          padding: 22px 16px;
-          width: 100%;
-          border: none;
-          outline: none;
-          text-align: left;
-          cursor: pointer;
-          font-family: 'Arial';
-          font-style: normal;
-          font-weight: 700;
-          font-size: 24px;
-          line-height: 30px;
-          /* transition: 0.3s; */
-          /* font-size: 17px; */
-        }
-        
-        /* Change background color of buttons on hover */
-        .tab button:hover {
-          /* background-color: #ddd; */
-          border-bottom: 2px solid #133079;
-        }
-        
-        /* Create an active/current "tab button" class */
-        .tab button.active {
-          /* text-align: underline; */
-          border-bottom: 2px solid #133079;
-        }
-        
-        /* Style the tab content */
-        .tabcontent {
-          float: left;
-          font-family: "Arial";
-          font-style: normal;
-          font-weight: 700;
-          font-size: 24px;
-          line-height: 30px;
-          display: flex;
-          align-items: center;
-          color: #133079;
-        }
-
-        
-        </style>
-        
-        <div class="menu-right">
-        
-        <h3 class="h3_bold">W jakich dziedzinach działamy</h3>
-        
-        <div class="tab">
-          <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-          <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-          <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-        </div>
-        
-        <div id="London" class="tabcontent">
-          <p>London is the capital city of England.</p>
-        </div>
-        
-        <div id="Paris" class="tabcontent">
-          <p>Paris is the capital of France.</p> 
-        </div>
-        
-        <div id="Tokyo" class="tabcontent">
-          <p>Tokyo is the capital of Japan.</p>
-        </div>
-        
-        <script>
-        function openCity(evt, cityName) {
-          var i, tabcontent, tablinks;
-          tabcontent = document.getElementsByClassName("tabcontent");
-          for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-          }
-          tablinks = document.getElementsByClassName("tablinks");
-          for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-          }
-          document.getElementById(cityName).style.display = "block";
-          evt.currentTarget.className += " active";
-        }
-        
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
-        </script>
-           
-        </div>
-
         <section class="page__nasi_klienci" id="page__nasi_klienci">
           <div class="nasi_klienci__title">
             <h2 class="h2_regular">Nasi klienci</h2>

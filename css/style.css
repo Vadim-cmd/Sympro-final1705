@@ -362,6 +362,26 @@ main {
 .body__blocks--mobile {
   display: none;
 }
+/* adaptive 1200px menu right*/
+
+@media only screen and (max-width: 1199px)  {
+  .menu-right {
+    display: none;
+  }
+}
+
+/* adaptive 1200px menu down*/
+@media only screen and (min-width: 1199px)  {
+  .menu-down {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px)  {
+  .menu-right {
+    display: none;
+  }
+}
 
 /* adaptive 1200px */
 @media screen and (max-width: 1199px) {
