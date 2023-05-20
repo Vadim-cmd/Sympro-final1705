@@ -1510,13 +1510,14 @@ iframe {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  /* line-height: 24px; */
   display: flex;
   align-items: center;
   text-decoration-line: underline;
-  color: #e08096;
-  padding-right: 20px;
+  /* padding-right: 20px; */
+  transform: rotate(90deg);
 }
+
 
 .panel {
   max-width: 70vw;
