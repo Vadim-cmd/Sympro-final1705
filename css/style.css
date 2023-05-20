@@ -370,18 +370,15 @@ main {
   }
 }
 
-/* adaptive 1200px menu down*/
-@media only screen and (max-width: 2600px) and (min-width: 1200px) {
+@media only screen and (max-width: 2800px) and (min-width: 1200px)  {
   .menu-down {
     display: none;
   }
+
 }
 
-@media only screen and (max-width: 600px)  {
-  .menu-right {
-    display: none;
-  }
-}
+
+
 
 /* adaptive 1200px */
 @media screen and (max-width: 1199px) {
