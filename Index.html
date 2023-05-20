@@ -557,27 +557,34 @@
         
         /* Style the buttons inside the tab */
         .tab button {
-          display: block;
+          /* display: block; */
           background-color: inherit;
-          color: black;
+          color: #133079;
           padding: 22px 16px;
           width: 100%;
           border: none;
           outline: none;
           text-align: left;
           cursor: pointer;
-          transition: 0.3s;
-          font-size: 17px;
+          font-family: 'Arial';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 30px;
+          /* transition: 0.3s; */
+          /* font-size: 17px; */
         }
         
         /* Change background color of buttons on hover */
         .tab button:hover {
-          background-color: #ddd;
+          /* background-color: #ddd; */
+          border-bottom: 2px solid #133079;
         }
         
         /* Create an active/current "tab button" class */
         .tab button.active {
-          background-color: #ccc;
+          /* text-align: underline; */
+          border-bottom: 2px solid #133079;
         }
         
         /* Style the tab content */
@@ -598,7 +605,7 @@
         
         <div class="menu-right">
         
-        <h2>Vertical Tabs</h2>
+        <h3 class="h3_bold">W jakich dziedzinach działamy</h3>
         
         <div class="tab">
           <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>

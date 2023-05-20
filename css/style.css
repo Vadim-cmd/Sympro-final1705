@@ -1478,7 +1478,7 @@ iframe {
   line-height: 24px;
   display: flex;
   align-items: center;
-  text-decoration-line: underline;
+  /* text-decoration-line: underline; */
   color: #106fae;
 }
 
@@ -1505,7 +1505,7 @@ iframe {
 }
 
 .menu-right .active:after {
-  content: url(/img/caret-up.svg);
+  content: url(/img/caret-right.svg);
   font-family: "Arial";
   font-style: normal;
   font-weight: 400;
@@ -1515,7 +1515,7 @@ iframe {
   align-items: center;
   text-decoration-line: underline;
   /* padding-right: 20px; */
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
 }
 
 
