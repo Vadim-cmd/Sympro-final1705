@@ -2250,7 +2250,7 @@ button {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  width: 100%;
+  /* width: 100%; */
   height: 400px;
   margin-right: 0px;
   box-sizing: border-box;
@@ -2340,3 +2340,9 @@ a.slide__next,
   box-shadow: rgb(50 50 93 / 25%) 0 0 100px -20px,
     rgb(0 0 0 / 30%) 0 0 60px -15px;
 }
+
+.img-client {
+ 
+  
+
+} 
