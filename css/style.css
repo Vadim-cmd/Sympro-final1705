@@ -2217,6 +2217,17 @@ button {
   margin-top: 40px;
 }
 
+.customer-logos {
+  
+
+
+}
+
+.slider {
+  
+
+}
+
 .slick-slide {
     margin: 0px 20px;
     justify-content: center;
@@ -2224,7 +2235,9 @@ button {
 }
 
 .slick-slide img {
-    width: 100%;
+    width: 140%;
+    padding: 30px 20px;
+    
 }
 
 .slick-slider
