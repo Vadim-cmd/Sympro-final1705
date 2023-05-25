@@ -2220,6 +2220,9 @@ button {
 .customer-logos {
   
 
+}
+
+.slide {
 
 }
 
@@ -2345,4 +2348,29 @@ button {
 }
 .slick-arrow.slick-hidden {
     display: none;
+}
+
+.client-logo-1{
+  padding: 27px 46px;
+}
+.client-logo-2{
+  padding: 27px 50px;
+}
+.client-logo-3{
+  padding: 30px;
+}
+.client-logo-4{
+  padding: 25px 55px;
+}
+.client-logo-5{
+  padding: 27px 33px;
+}
+.client-logo-6{
+  padding: 20px 64px;
+}
+.client-logo-7{
+  padding: 26px 46px;
+}
+.client-logo-8{
+  padding: 28px 39px;
 }
