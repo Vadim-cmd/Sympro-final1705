@@ -85,15 +85,17 @@ header {
   text-align: left;
 }
 
-main {
+/* main {
   background-color: var(--White);
   /* background-image: url(/img/bg.svg); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right;
   background-attachment: scroll;
-}
-/* === about =================================== */
+} 
+
+
+=== about =================================== */
 
 .page__about {
 }
@@ -2026,260 +2028,61 @@ button {
     transform: translate(-60%, -30%);
   }
 }
-/* 
-.client__item-1 {
-  background-image: url(/img/clients/logo_1.svg);
-  width: 10vw;
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-  transform: scale(2.5);
-  justify-content: center;
+
+
+
+/* ========1915 slider */
+
+/* Slick Slider */
+
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 135%;
+  font-size: 1.8rem;
 }
 
-.client__item-2 {
-  background-image: url(/img/clients/logo_2.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-3 {
-  background-image: url(/img/clients/logo_3.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-4 {
-  background-image: url(/img/clients/logo_4.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-5 {
-  background-image: url(/img/clients/logo_5.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-6 {
-  background-image: url(/img/clients/logo_6.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-7 {
-  background-image: url(/img/clients/logo_7.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-8 {
-  background-image: url(/img/clients/logo_8.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-9 {
-  background-image: url(/img/clients/logo_9.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-10 {
-  background-image: url(/img/clients/logo_10.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-11 {
-  background-image: url(/img/clients/logo_11.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-12 {
-  background-image: url(/img/clients/logo_12.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-13 {
-  background-image: url(/img/clients/logo_13.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-14 {
-  background-image: url(/img/clients/logo_14.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
+.slick-prev {
+  left: 0;
 }
 
-.client__item-15 {
-  background-image: url(/img/clients/logo_15.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-16 {
-  background-image: url(/img/clients/logo_16.svg);
-  width: 10vw;
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-17 {
-  background-image: url(/img/clients/logo_17.svg);
-  width: 10vw;
-
-  justify-content: center;
-
-  height: 70px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-}
-.client__item-18 {
-  background-image: url(/img/clients/logo_18.svg);
-  width: 10vw;
-  height: 90px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  border: 1px solid red;
-  justify-content: center;
-}
- */
-
-
-/* Slider */
-.slider-container {
-  margin-top: 40px;
+.slick-next {
+  right: 0;
 }
 
-.customer-logos {
-  
-
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.slide {
-
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
-.slider {
-  
-
+.slick-list:focus {
+  outline: none;
 }
 
-.slick-slide {
-    margin: 0px 20px;
-    justify-content: center;
-    align-items: center;
-}
-
-.slick-slide img {
-    width: 140%;
-    padding: 30px 20px;
-    
-}
-
-.slick-slider
-{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-            user-select: none;
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.slick-list
-{
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-.slick-list:focus
-{
-    outline: none;
-}
-.slick-list.dragging
-{
-    cursor: pointer;
-    cursor: hand;
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
 }
 
 .slick-slider .slick-track,
-.slick-slider .slick-list
-{
+.slick-slider .slick-list {
     -webkit-transform: translate3d(0, 0, 0);
        -moz-transform: translate3d(0, 0, 0);
         -ms-transform: translate3d(0, 0, 0);
@@ -2287,96 +2090,83 @@ button {
             transform: translate3d(0, 0, 0);
 }
 
-.slick-track
-{
+.slick-track {
     position: relative;
     top: 0;
     left: 0;
     display: block;
 }
+
 .slick-track:before,
-.slick-track:after
-{
+.slick-track:after {
     display: table;
     content: '';
 }
-.slick-track:after
-{
+
+.slick-track:after {
     clear: both;
 }
-.slick-loading .slick-track
-{
+
+.slick-loading .slick-track {
     visibility: hidden;
 }
 
-.slick-slide
-{
+.slick-slide {
     display: none;
     float: left;
     height: 100%;
     min-height: 1px;
 }
-[dir='rtl'] .slick-slide
-{
+
+[dir='rtl'] .slick-slide {
     float: right;
 }
-.slick-slide img
-{
+
+.slick-slide img {
     display: block;
 }
-.slick-slide.slick-loading img
-{
+
+.slick-slide.slick-loading img {
     display: none;
 }
-.slick-slide.dragging img
-{
+
+.slick-slide.dragging img {
     pointer-events: none;
 }
-.slick-initialized .slick-slide
-{
+.slick-initialized .slick-slide {
     display: block;
 }
-.slick-loading .slick-slide
-{
+.slick-loading .slick-slide {
     visibility: hidden;
 }
-.slick-vertical .slick-slide
-{
+.slick-vertical .slick-slide {
     display: block;
     height: auto;
     border: 1px solid transparent;
 }
+
 .slick-arrow.slick-hidden {
     display: none;
 }
 
-.client-logo-1{
-  padding: 27px 46px;
-}
-.client-logo-2{
-  padding: 27px 50px;
-}
-.client-logo-3{
-  padding: 30px;
-}
-.client-logo-4{
-  padding: 25px 55px;
-}
-.client-logo-5{
-  padding: 27px 33px;
-}
-.client-logo-6{
-  padding: 20px 64px;
-}
-.client-logo-7{
-  padding: 26px 46px;
-}
-.client-logo-8{
-  padding: 28px 39px;
+.slide {
+    transition: filter .4s;
+    margin: 0px 40px;
 }
 
-@media screen and (min-width: 1380px) {
-  .container {
-    width: 1980px;
-  }
+.fas {
+    color: var(--Primary3);
+}
+.slick-prev {
+    left: 0;
+}
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 35%;
+    font-size: 1.8rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
 }
