@@ -2374,3 +2374,9 @@ button {
 .client-logo-8{
   padding: 28px 39px;
 }
+
+@media screen and (min-width: 1380px) {
+  .container {
+    width: 1980px;
+  }
+}
